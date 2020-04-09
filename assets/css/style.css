@@ -190,7 +190,7 @@
 /* game */
 
 #game-exodus .columns{
-  background-image: url('/assets/images/characters.jpg');
+  background-image: url('../images/characters.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -201,7 +201,7 @@
 }
 
 #game-exodus .columns:last-child{
-	background-image: url('/assets/images/weapons.jpg');
+	background-image: url('../images/weapons.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -474,7 +474,7 @@ footer .navbar-item, .navbar-link{
 
 .alertify-notifier .ajs-message{
 	color: #edc60f!important;
-	background: url('/assets/images/message2.jpg')!important;
+	background: url('../images/message2.jpg')!important;
 	border: 2px solid #edc60f!important;
 	background-position-x: 30%!important;
 	background-position-y: 57%!important;
@@ -486,7 +486,7 @@ footer .navbar-item, .navbar-link{
 
 .ajs-customSuccess{
 	color: #edc60f!important;
-	background: url('/assets/images/message2.jpg')!important;
+	background: url('../images/message2.jpg')!important;
 	border: 2px solid #edc60f!important;
 	background-position-x: 30%!important;
 	background-position-y: 57%!important;
@@ -498,7 +498,7 @@ footer .navbar-item, .navbar-link{
 
 .ajs-customDanger{
 	color: red!important;
-	background: url('/assets/images/message2.jpg')!important;
+	background: url('../images/message2.jpg')!important;
 	border: 2px solid #edc60f!important;
 	background-position-x: 30%!important;
 	background-position-y: 57%!important;
@@ -563,7 +563,7 @@ footer .navbar-item, .navbar-link{
   -webkit-transform: translate(-50%,-50%);
   -ms-transform: translate(-50%,-50%);
   transform: translate(-50%,-50%);
-  background-image: url("/assets/images/gamePart.png");
+  background-image: url("../images/gamePart.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -579,7 +579,7 @@ footer .navbar-item, .navbar-link{
     -webkit-transform: translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
-    background-image: url("/assets/images/gamePart.png");
+    background-image: url("../images/gamePart.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center center;
