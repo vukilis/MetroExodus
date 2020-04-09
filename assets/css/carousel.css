@@ -1,0 +1,142 @@
+#home-exodus{
+	width: 100%;
+	height: auto;
+	min-height: 90.8vh;
+}
+#game-exodus{
+  position: relative;	
+}
+
+.carousel, .carousel-container, c.arousel-item, .has-background, .is-active{
+	height: auto;
+}
+
+.dots{
+	text-align: center;
+	position: relative;
+	bottom: 27rem;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+	margin-right: 30px;
+}
+
+.active, .dot:hover {
+  background-color: orange;
+}
+
+.carousel-nav-left{
+  position: relative;
+	top: 30rem;
+	left: 30px;
+}
+
+.carousel-nav-right{
+	position: relative;
+	top: 30rem;
+	right: 30px;
+}
+
+#home-exodus .carousel-item video{
+	height: 90.8vh;
+  max-width: 100%;
+  object-fit: fill;
+}
+
+.is-background{
+	height: 90.8vh;
+	width: 100%;
+}
+
+#home-exodus .carousel{
+	height: 90.69vh;
+}
+
+#home-exodus .container{
+	 position: relative;
+	 bottom: 38rem;
+	 text-align: left;
+	 background: rgba(0,0,0,.6);
+	 width: 600px;
+
+   left: 2rem;
+}
+
+#home-exodus .title{
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	font-family: 'Cinzel-Regular';
+	font-size: 43px;
+	margin-right: 50px!important;
+	font-weight: 400;
+	margin-left: 6rem;
+	padding-top: 4rem;
+}
+
+#home-exodus .hero-body{
+	padding: 3rem 6rem;
+}
+
+#home-exodus p {
+	font-family: 'ontserrat-MetroLight,sans-serif';
+	line-height: 1.3;
+	font-size: 21px;
+}
+
+#home-exodus .title h1::after {
+    width: 75%;
+    content: "";
+    background: transparent url('../images/line.png') repeat-x left center;
+    position: absolute;
+    left: 53%;
+    bottom: 7.8rem	;
+    height: 2px;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
+/* scroll */
+
+#myBtnScroll {
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  z-index: 4;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 15px;
+	border-radius: 30px;
+	background-color: transparent;
+	height: 46px;
+	width: 127px;
+	background-image: url('../images/btnscroll2.png');
+	background-position-x: 13px;
+	background-position-y: center;
+	background-repeat: no-repeat;
+}
+
+#myBtnScroll:hover {
+  background-color: transparent;
+  background-image: url('../images/btnscroll_color2.png');
+}
+/*
+#myBtnScroll::after {
+  content: url('../images/btnscroll2.png');
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 30px;
+  line-height: 30px;
+  color: #3b5ec7;
+}
+*/

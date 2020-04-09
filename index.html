@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Metro Exodus</title>
+	<meta charset="utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="utf-8">
+	<meta name="description" content="Welcome to Metro Exodus.">
+	<meta name="keywords" content="metro,exodus,characters,weapons,artyom,system requirements">
+	<meta name="author" content="Vuk Lekic 351/17"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="assets/images/icon.ico" type="image/ico" sizes="128x128">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="assets/css/style.css" rel="stylesheet" type="text/css"/>
+	<link href="assets/css/carousel.css" rel="stylesheet" type="text/css"/>
+	<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.11.0/build/css/alertify.min.css"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+	<nav class="navbar is-black">
+		<div class="navbar-brand">
+			<a id="logo-link" href="index.html" class="navbar-item is-size-6 is-uppercase">
+				<img src="assets/images/logo.png" alt="logo">
+			</a>
+			<span class="navbar-burger burger" data-target="navbarMenuHeroB">
+				<span></span>
+				<span></span>
+				<span></span>
+			</span>
+		</div>
+		<div id="navbarMenuHeroB" class="navbar-menu">
+			<div id="navigacijaCentar" class="navbar-start">
+				<ul id="navigacija" class="menu-list">
+					<li class="aktivan">
+						<a id="home" href="#home" class="navbar-item is-uppercase">Home</a>
+					</li>
+					<li>
+						<a id="game" href="#game" class="navbar-item is-uppercase">Game</a>
+					</li>
+					<li>
+						<a id="about" href="#about" class="navbar-item is-uppercase">	About</a>
+					</li>
+					<ul>
+					</div>
+					<div class="navbar-end">
+						<div id="media" class="in-nav-social">
+							<a href="https://twitter.com/metrovideogame" target="_blank" class="navbar-item">
+								<span class="icon">
+									<i class="fa fa-twitter" aria-hidden="true"></i>
+								</span>
+							</a>
+							<a href="https://www.youtube.com/user/deepsilverhq" target="_blank" class="navbar-item">
+								<span class="icon">
+									<i class="fa fa-youtube-play" aria-hidden="true"></i>
+								</span>
+							</a>
+							<a href="https://www.instagram.com/metrovideogame/?hl=sr" target="_blank" class="navbar-item">
+								<span class="icon">
+									<i class="fa fa-instagram aria-hidden="true""></i>
+								</span>
+							</a>
+							<a href="https://www.facebook.com/MetroExodusgame/" target="_blank" class="navbar-item">
+								<span class="icon">
+									<i class="fa fa-facebook aria-hidden="true""></i>
+								</span>
+							</a>
+						</div>
+						<div id="ispisLogReg" class="navbar-item">
+							<span class="navbar-item is-uppercase">
+								<a href="login.html" class="button is-info navbar-button">
+									<span>Login</span>
+								</a>
+							</span>
+							<span class="navbar-item is-uppercase no-padding-left">
+								<a href="register.html" class="button is-info navbar-button">
+									<span>Register</span>
+								</a>
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<!-- sidebar -->
+		<aside class="section sidebar">
+			<div class="container">
+				<ul id="mini-menu" class="has-text-centered">
+
+					<li>
+						<a id="home" href="index.html" class="is-uppercase is-size-3">Home</a>
+					</li>
+					<li>
+						<a id="game" href="#game" class="is-uppercase is-size-3">game</a>
+					</li>
+					<li>
+						<a id="about" href="#about" class="is-uppercase is-size-3">about</a>
+					</li>
+					<li>
+						<a href="login.html" data-target="#login" class="is-uppercase is-size-3">
+							Login
+						</a>
+					</li>
+					<li>
+						<a href="register.html" data-target="#registration" class="is-uppercase is-size-3">
+							Register
+						</a>
+					</li>
+				</ul>
+			</div>
+		</aside>
+		<section id="home-exodus" class="hero is-black">
+			<div class='carousel carousel-animated carousel-animate-slide'>
+				<div class='carousel-container'>
+					<div class='carousel-item has-background is-active'>
+						<video  autoplay="" loop="" playsinline="" muted=""onloadedmetadata="this.muted = true" preload="auto" poster="">
+							<source id="source" src="https://storage.googleapis.com/kmwebsites/metro3_live/MetroExodus-CGI_crop.mp4" type="video/mp4">
+							</video>
+							<div id="titleBox" class="container is-pulled-left">
+
+								<div class="hero-head">
+									<div class="title"><h1>artyom's nightmare</h1></div>
+								</div>
+								<div class="hero-body">
+									<p>It’s time to leave the ruins of Moscow, and journey beyond</p>
+								</div>
+							</div>
+						</div>
+						<div class='carousel-item has-background'>
+							<img class="is-background" src="assets/images/image1.jpg" alt="image1"/>
+							<div id="titleBox2" class="container is-pulled-left">
+								<div class="hero-head">
+									<div class="title"><h1>metro uncovered</h1></div>
+								</div>
+								<div class="hero-body">
+									<p>Welcome to the greatest Metro adventure yet. "He’s over there!</p>
+								</div>
+							</div>
+						</div>
+						<div class='carousel-item has-background'>
+							<img class="is-background" src="assets/images/image2.jpg" alt="image2"/>
+							<div id="titleBox3" class="container is-pulled-left">
+								<div class="hero-head">
+									<div class="title"><h1>exodus world</h1></div>
+								</div>
+								<div class="hero-body">
+									<p>Metro Exodus is set in 2036, two years after the events of Metro: Last Light</p>
+								</div>
+							</div>
+						</div>
+						<div class='carousel-item has-background'>
+							<video  autoplay="" loop="" playsinline="" muted=""onloadedmetadata="this.muted = true" preload="auto" poster="">
+								<source id="source" src="https://storage.googleapis.com/kmwebsites/metro3_live/STORYBANNERJAN18.mp4" type="video/mp4">
+								</video>
+								<div id="titleBox4" class="container is-pulled-left">
+									<div class="hero-head">
+										<div class="title"><h1>story revealed</h1></div>
+									</div>
+									<div class="hero-body">
+										<p>Join Artyom and his band of Spartans on an epic journey</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- next, prev -->
+						<div class="carousel-navigation is-overlay">
+							<div class="carousel-nav-left is-pulled-left">
+								<a class="prev" onclick="plusSlides(-1)"><img src="assets/images/back.png"></img></a>
+							</div>
+							<div class="carousel-nav-right is-pulled-right">
+								<a class="next" onclick="plusSlides(1)"><img src="assets/images/right-arrow.png"></img></a>
+							</div>
+						</div>
+						<div class="is-clearfix"></div>
+						<!-- dots -->
+						<div class="dots">
+							<span class="dot" onclick="trenutniSlajd(1)"></span>
+							<span class="dot" onclick="trenutniSlajd(2)"></span>
+							<span class="dot" onclick="trenutniSlajd(3)"></span>
+							<span class="dot" onclick="trenutniSlajd(4)"></span>
+						</div>
+					</div>
+				</section>
+				<section id="promo-exodus" class="hero is-custom">
+					<div class="hero-body">
+						<div id="promo" class="container">
+							<h1 class="title">
+								journey beyond
+							</h1>
+							<p>
+								Metro Exodus is an epic, story-driven first person shooter from 4A Games that blends deadly combat and stealth with
+								exploration and survival horror in one of the most immersive game worlds ever created.
+							</p>
+						</div>
+					</section>
+					<section id="game-exodus" class="hero is-black">
+						<div class="dimming">
+						</div>
+						<div class="columns is-full ">
+							<div class="content has-text-centered">
+								<h1>characters</h1>
+								<hr>
+								<p>Metro Exodus boasts an epic storyline, packed with memorable characters. As you journey across Russia you'll
+									bond with your travelling companions, recruit new allies to your cause, and encounter sinister foes in the wastelands…
+								</p>
+								<a class="button gBtn" href="characters.html">EXPLORE</a>
+							</div>
+						</div>
+						<div class="columns is-full ">
+							<div class="content has-text-centered">
+								<h1>weapons</h1>
+								<hr>
+								<p>Metro Exodus features an arsenal of unique, customisable, hand-crafted weaponry built on the principle of
+									mechanical realism. Every gun could function in real life thanks to the extraordinary efforts of 4A Games' weapon designers…
+								</p>
+								<a class="button gBtn" href="weapons.html">EXPLORE</a>
+							</div>
+						</div>
+					</section>
+					<section id="about-exodus" class="hero is-custom">
+						<div class="hero-body">
+							<h1 class="title">About metro exodus</h1>
+							<div id="clm-master" class="columns">
+								<div id="aboutIn" class="column">
+									<h1 class="title">game</h1>
+									<p>
+										Metro Exodus is a first-person shooter video game developed by 4A Games and published by Deep Silver.
+										It is the third installment in the Metro video game series based on Dmitry Glukhovsky's novels. It follows the events of
+										Metro 2033 and Metro: Last Light.
+									</p>
+									<p>
+										A brutal vision of the future, Metro Exodus is a worthy reimagining of the subterranean shooter that brings
+										it blinking into the light of modern gaming with fluid gunplay and a gorgeous open world.
+									</p>
+								</div>
+								<div class="column">
+									<div class="columns">
+										<div id="aboutIn2" class="column">
+											<h1 class="title">system requirements</h1>
+											<ul id="mininmum" class="is-pulled-left">
+												<strong>Minimum:</strong><br>
+												<ul class="bb_ul">
+													<li>Requires a 64-bit processor and operating system<br></li>
+													<li><strong>OS:</strong> Windows 7/8/10<br></li>
+													<li><strong>Processor:</strong> Intel Core i5-4440 or equivalent<br></li>
+													<li><strong>Memory:</strong> 8 GB RAM<br></li>
+													<li><strong>Graphics:</strong> GeForce GTX 670 / GeForce GTX 1050 / AMD Radeon HD 7870<br></li>
+													<li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 59 GB available space<br></li>
+													<li><strong>Sound Card:</strong> DirectX Compatible Sound Card</li></ul>
+												</ul>
+												<ul id="recommended" class="is-pulled-right">
+													<strong>Recommended:</strong><br>
+													<ul class="bb_ul"><li>Requires a 64-bit processor and operating system<br></li>
+														<li><strong>OS:</strong> Windows 10<br></li>
+														<li><strong>Processor:</strong> Intel Core i7-4770k or equivalent<br></li>
+														<li><strong>Memory:</strong> 8 GB RAM<br></li>
+														<li><strong>Graphics:</strong> GeForce GTX 1070 / GeForce RTX 2060 / AMD RX VEGA 56<br></li>
+														<li><strong>DirectX:</strong> Version 12<br></li>
+														<li><strong>Storage:</strong> 59 GB available space<br></li>
+														<li><strong>Sound Card:</strong> DirectX Compatible Sound Card</li></ul>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</section>
+							<section class="hero is-black">
+								<div class="hero-body">
+									<div class="container">
+										<div class="columns is-centered">
+											<div id="newsletterIn"class="column is-two-thirds">
+												<p class="control has-icons-left has-icons-right">
+													<input id="newsletter" class="input" type="email" placeholder="Enter your email address..."/>
+													<span class="icon is-small is-left">
+														<i id="envelope" class="fa fa-envelope"></i>
+													</span>
+												</p>
+											</div>
+											<div id="newsletterIn2" class="column has-text-right">
+												<h3 class="title has-text-weight-light">
+													Let's stay in touch.
+												</h3>
+												<h4 class="subtitle has-text-weight-light">
+													with new news
+												</h4>
+												<button id="subscribeBtn" class="button navbar-button">
+													<span> Subscribe
+													</span>
+												</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</section>
+							<footer id="footerIn" class="footer">
+								<div class="hero-body">
+									<div class="hero-head">
+										<div class="content has-text-centered">
+											<h1 class="title">join the community</h1>
+										</div>
+									</div>
+									<div class="hero-foot">
+										<div class="content has-text-centered">
+											<div id="media" class="in-nav-social">
+												<a href="https://twitter.com/metrovideogame" target="_blank" class="navbar-item">
+													<span class="icon">
+														<i class="fa fa-twitter" aria-hidden="true"></i>
+													</span>
+												</a>
+												<a href="https://www.youtube.com/user/deepsilverhq" target="_blank" class="navbar-item">
+													<span class="icon">
+														<i class="fa fa-youtube-play" aria-hidden="true"></i>
+													</span>
+												</a>
+												<a href="https://www.instagram.com/metrovideogame/?hl=sr" target="_blank" class="navbar-item">
+													<span class="icon">
+														<i class="fa fa-instagram aria-hidden="true""></i>
+													</span>
+												</a>
+												<a href="https://www.facebook.com/MetroExodusgame/" target="_blank" class="navbar-item">
+													<span class="icon">
+														<i class="fa fa-facebook aria-hidden="true""></i>
+													</span>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="content has-text-centered">
+									<ul class="menu-list">
+										<li>
+											<a id="homeF" class="footer-link" href="#home">Home</a>
+										</li>
+										<li>
+											<a id="gameF" class="footer-link" href="#game">Game</a>
+										</li>
+										<li>
+											<a id="aboutF" class="footer-link" href="#about">About</a>
+										</li>
+									</ul>
+								</div>
+								<div class="hero-body">
+									<div class="hero-head">
+										<div class="content has-text-centered">
+											<div class="footerLogos">
+												<img src="/assets/images/xbox.png" alt="xbox">
+											</div>
+											<div class="footerLogos">
+												<img src="/assets/images/windows-logo.png" alt="winodws">
+											</div>
+											<div class="footerLogos">
+												<img src="/assets/images/ps4logo.png" alt="ps4">
+											</div>
+										</div>
+										<div class="content has-text-centered">
+											<div class="footerLogos">
+												<img src="/assets/images/esrb.jpg" alt="esrb">
+											</div>
+											<div class="footerLogos">
+												<img src="/assets/images/2035.png" alt="2035">
+											</div>
+											<div class="footerLogos">
+												<img src="/assets/images/path-engine.png" alt="path-engine">
+											</div>
+											<div class="footerLogos">
+												<img src="/assets/images/nvidia-logo.png" alt="nvidia">
+											</div>
+											<div class="footerLogos">
+												<img src="/assets/images/corsair-logo.png" alt="corsair">
+											</div>
+										</div>
+									</div>
+									<div class="hero-foot">
+										<div class="content has-text-centered">
+											<ul class="footer-nav">
+												<li class="footer-nav__item">
+													<a href="author.html" target="_blank" class="footer-nav__link">Author</a>
+												</li>
+												<li class="footer-nav__item">
+													<a href="dokumentacija.pdf" target="_blank" class="footer-nav__link">Dokumentacija</a>
+												</li>
+												<li class="footer-nav__item">
+													<p>&copy Vuk Lekic 351/17</p>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</footer>
+							<button id="myBtnScroll" title="TO TOP"></button>
+							<script src="//cdn.jsdelivr.net/npm/alertifyjs@1.11.0/build/alertify.min.js"></script>
+							<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+							<script src="assets/js/main.js" type="text/javascript"></script>
+							<script src="assets/js/jquery.js" type="text/javascript"></script>
+							<div class="alertify-notifier ajs-bottom ajs-right"></div>
+						</body>
+					</html>

@@ -1,0 +1,119 @@
+[
+  {
+    "modalTitle" : "\"BULLDOG\"",
+    "mText" : "Vastly superior to the Kalash in damage output, handling, weight and accuracy. It also has a lower rate of fire making each burst more controllable under pressure. Yet, despite all that, the Bulldog is rare to find. Its complex mechanics require skillful maintenance to keep running. It is hardly surprising that most of the survivors prefer its 'elder brother', the indestructible Kalash.",
+    "mImages" : "assets/images/weapon1.jpg",
+    "id" : 0,
+    "class" : "card",
+    "title" : "BULLDOG",
+    "description" : "Precision engineered rifle for a careful owner.",
+    "images" : {
+      "src" : "assets/images/weapon1.jpg",
+      "alt" : "bulldog"
+    }
+  },
+  {
+    "modalTitle" : "\"VALVE\"",
+    "mText" : "Keep your friends close, and enemies even closer? A nice idea, but you never know when you need to send a piece of lead into the middle of a target that’s several hundred meters away. Factory-made sniper rifles are hard to find in post-war Russia, let alone ones in good working condition. Despite being a makeshift weapon, the Valve is more than capable when it comes to accuracy, and the power of the old rifle cartridge is enough to defeat most protection.",
+    "mImages" : "assets/images/weapon2.jpg",
+    "id" : 1,
+    "class" : "card",
+    "title" : "VALVE",
+    "description" : "When you need to keep your distance.",
+    "images" : {
+      "src" : "assets/images/weapon2.jpg",
+      "alt" : "valve"
+    }
+  },
+  {
+    "modalTitle" : "\"BASTARD GUN\"",
+    "mText" : "You happen to have a length of thin pipe, a dented bucket, rusty anvil and pliers? Perfect, in a couple of days you too might be spraying lead with a Bastard Gun. A popular tool for the denizens of the Moscow Metro, this gunsmith's nightmare has been turned into a semi-functioning weapon by Tokarev. Will it still jam? Of course, but the number of bullets it can spit out before it stutters is enough to drop most opponents.",
+    "mImages" : "assets/images/weapon3.jpg",
+    "id" : 3,
+    "class" : "card",
+    "title" : "BASTARD GUN",
+    "description" : "Lives up to the name with every use.",
+    "images" : {
+      "src" : "assets/images/weapon3.jpg",
+      "alt" : "bastard gun"
+    }
+  },
+  {
+    "modalTitle" : "\"SHAMBLER SHOT GUN\"",
+    "mText" : "The Shambler has taken the humble shotgun and turned it into something else. Something terrifying and deadly to anyone on the receiving end. Sacrificing reliability, simplicity and even common sense for sheer firepower, the Shambler requires constant attention and tuning. Its terrifying effect on the enemycan only be described as a cross between a meat grinder and lawn mower.",
+    "mImages" : "assets/images/weapon4.jpg",
+    "id" : 4,
+    "class" : "card",
+    "title" : "SHAMBLER SHOT GUN",
+    "description" : "When is a shotgun not a shotgun?",
+    "images" : {
+      "src" : "assets/images/weapon4.jpg",
+      "alt" : "shambler shot gun"
+    }
+  },
+  {
+    "modalTitle" : "\"HELSING\"",
+    "mText" : "The weapon of choice when stealth is needed. You can, with enough care, use the same bolt to clear out an area without raising any alarm. When stealth isn't a concern, you can always switch over to explosive bolts to deliver an extra punch.",
+    "mImages" : "assets/images/weapon5.jpg",
+    "id" : 5,
+    "class" : "card",
+    "title" : "HELSING",
+    "description" : "Perfect for hunting, whatever your prey.",
+    "images" : {
+      "src" : "assets/images/weapon5.jpg",
+      "alt" : "helsing"
+    }
+  },
+  {
+    "modalTitle" : "\"A-SHOT\"",
+    "mText" : "A buckshot salvo will make even the toughest and meanest of mutants think about their actions carefully. This shotgun has an extensive variety of upgrades. One barrel can be swapped for a packet of up to four, but that's just the beginning… Pick from a variety of chokes, stocks, recoil compensators and sights to customise your shotgun.",
+    "mImages" : "assets/images/weapon6.jpg",
+    "id" : 6,
+    "class" : "card",
+    "title" : "A-SHOT",
+    "description" : "What firearm could be simpler than a shotgun?",
+    "images" : {
+      "src" : "assets/images/weapon6.jpg",
+      "alt" : "a-shot"
+    }
+  },
+  {
+    "modalTitle" : "\"KALASH\"",
+    "mText" : "One of the few pre-war weapons still in wide circulation, the Kalash has been used in conflicts all over the world, renowned for its unparalleled reliability and firepower in combat. A standard Kalash is already a solid assault rifle, but, thanks to Tokarev, the Spartan version can accommodate a huge variety of upgrades, supporting everything from extended magazines to custom sights. This weapon can also be transformed into a variety ofvariants, including a submachine gun and an LMG.",
+    "mImages" : "assets/images/weapon7.jpg",
+    "id" : 7,
+    "class" : "card hidden-card hideable",
+    "title" : "KALASH",
+    "description" : "A prized possession for any fighter.",
+    "images" : {
+      "src" : "assets/images/weapon7.jpg",
+      "alt" : "kalash"
+    }
+  },
+  {
+    "modalTitle" : "\"TIKHAR\"",
+    "mText" : "Built out of a need for a weapon where bullet shortages were a problem, the Tikhar became indispensable for Spartan Rangers. Not only does the gun use the ubiquitous ball bearing for ammunition, it is also practically noiseless. The gun uses a high-pressure pneumatic system to pack a punch, and can support incendiary rounds when needed. Just remember to keep the air pressure up.",
+    "mImages" : "assets/images/weapon8.jpg",
+    "id" : 8,
+    "class" : "card hidden-card hideable",
+    "title" : "TIKHAR",
+    "description" : "Silent killer and engineering masterpiece.",
+    "images" : {
+      "src" : "assets/images/weapon8.jpg",
+      "alt" : "tikhar"
+    }
+  },
+  {
+    "modalTitle" : "\"REVOLVER\"",
+    "mText" : "Originally produced in the Metro, where ammo was scarce and reload speed a low concern, this classic weapon has enough stopping power to kill a mutant on the spot with a well-placed shot. Based on the Nagant, complete with gas seal mechanism, the Revolver can be fitted with suppressors as well as other modifications, like carbine stocks and a range of sights.",
+    "mImages" : "assets/images/weapon9.jpg",
+    "id" : 9,
+    "class" : "card hidden-card hideable",
+    "title" : "REVOLVER",
+    "description" : "Trusty tool to keep handy on missions.",
+    "images" : {
+      "src" : "assets/images/weapon9.jpg",
+      "alt" : "revolver"
+    }
+  }
+]

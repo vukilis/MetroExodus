@@ -1,0 +1,15 @@
+[
+  {
+   "title" : "Register",
+   "class" : "register-form",
+   "id" : {
+    "usr" : "username2",
+    "usrGreska" : "logKorImeGreska2",
+    "psw" : "password2",
+    "pswGreska" : "logLozGreska2",
+    "mail" : "mail",
+    "mailGreska" : "emailGreska",
+    "prijava" : "prijava2",
+   }
+  }
+]

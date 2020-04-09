@@ -1,0 +1,158 @@
+[
+  {
+    "modalTitle" : "\"We were not born for life in the tunnels\"",
+    "mText" : "Born in Moscow a few years before the nuclear war, Artyom has lived his entire life in the Metro and on many occasions risked his life to protect it. He is obsessed with the idea of finding life beyond the tunnels of the Metro, regularly venturing outside with a radio transceiver, trying to establish communications with the outside world. He is determined to prove that there is, indeed, life outside the Metro.",
+    "mImages" : "assets/images/card1.jpg",
+    "id" : 0,
+    "class" : "card",
+    "title" : "Artyom",
+    "description" : "Our protagonist.",
+    "images" : {
+      "src" : "assets/images/card1.jpg",
+      "alt" : "artyom"
+    }
+  },
+  {
+    "modalTitle" : "\"I want to believe there's a world out there Artyom...I want to dream.\"",
+    "mText" : "Miller's daughter and Artyom’s wife, Anna is your advisor and will also provide support on missions away from The Aurora. She is regarded as the best sniper amongst the Spartan Rangers, so you can feel at ease with her watching your back. Anna is known for her indomitable attitude, but she still believes in kindness, compromise, and forgiveness, and will advocate for finding a peaceful solution where possible.",
+    "mImages" : "assets/images/card2.jpg",
+    "id" : 1,
+    "class" : "card",
+    "title" : "Anna",
+    "description" : "The best sniper of the Spartan Order and Artyom’s wife.",
+    "images" : {
+      "src" : "assets/images/card2.jpg",
+      "alt" : "anna"
+    }
+  },
+  {
+    "modalTitle" : "\"Too many lives have already been sacrificed...\"",
+    "mText" : "Colonel Miller lost his legs in the battle for D6, but this hasn't slowed him down. Equipped with new metal legs, and as stubborn as ever, he is the commander of the Aurora. Always the military figure, he is rational, calculating and often harsh. Mission success is at the top of Miller’s priority list, but he deeply cares for the Spartans whom, along with Anna, he considers his family.",
+    "mImages" : "assets/images/card3.jpg",
+    "id" : 3,
+    "class" : "card",
+    "title" : "Miller",
+    "description" : "Colonel, commander of the Order and our leader on this journey.",
+    "images" : {
+      "src" : "assets/images/card3.jpg",
+      "alt" : "miller"
+    }
+  },
+  {
+    "modalTitle" : "\"Colonel, sir, we can't just leave them here, they will be eaten alive!\"",
+    "mText" : "With years of distinguished service in the ranks of Spartan Rangers, Stepan is part of Miller's personal retinue. A heavy weapon specialist and one of the strongest fighters on The Aurora, towering at least a head taller than the others, he is someone you’d want by your side in any battle. Rest assured that Stepan's position will never be overrun by enemies. Despite his size and intimidating appearance, Stepan is a genuine hopeless romantic, and will always try to help out those in need.",
+    "mImages" : "assets/images/card4.jpg",
+    "id" : 4,
+    "class" : "card",
+    "title" : "Stepan",
+    "description" : "Human tank and heavy weapon specialist.",
+    "images" : {
+      "src" : "assets/images/card4.jpg",
+      "alt" : "stepan"
+    }
+  },
+  {
+    "modalTitle" : "\"Don't worry man, everything's going to be A-OK!\"",
+    "mText" : "Before Judgement day, Sam used to guard the US Embassy in Moscow and is now Miller's personal bodyguard. He is loved by the rest of the team, both for his unending optimism and his combat skills, which are second to none. With Sam protecting The Aurora, you know the base of operations is in safe hands. After learning that the world beyond Moscow is not completely dead, he dreams of one day visiting his homeland.",
+    "mImages" : "assets/images/card5.jpg",
+    "id" : 5,
+    "class" : "card",
+    "title" : "Sam",
+    "description" : "A seasoned fighter and ex US-Marine.",
+    "images" : {
+      "src" : "assets/images/card5.jpg",
+      "alt" : "sam"
+    }
+  },
+  {
+    "modalTitle" : "\"This is what life's supposed to be…\"",
+    "mText" : "Born in Kazakhstan, Damir has always felt like an outsider in the Rangers. Despite that, he is unwaveringly loyal to Miller and your group. He deeply cares for his comrades and, as your medic for the journey, makes sure everyone gets the attention they need. Going east with the rest of the crew, he hopes to meet some of his relatives on the journey.",
+    "mImages" : "assets/images/card6.jpg",
+    "id" : 6,
+    "class" : "card",
+    "title" : "Damir",
+    "description" : "Responsible for keeping the team in one piece.",
+    "images" : {
+      "src" : "assets/images/card6.jpg",
+      "alt" : "damir"
+    }
+  },
+  {
+    "modalTitle" : "\"I think your destiny brought you here…\"",
+    "mText" : "Idiot chose his own nickname, but is actually one of the most intelligent in the group. Often found despairing about life, its futility and the struggles of men, Idiot is the resident philosopher aboard The Aurora. He is always arguing for careful deliberation before taking any drastic action.",
+    "mImages" : "assets/images/card7.jpg",
+    "id" : 7,
+    "class" : "card hidden-card hideable",
+    "title" : "Idiot",
+    "description" : "Don't judge a book by its cover.",
+    "images" : {
+      "src" : "assets/images/card7.jpg",
+      "alt" : "idiot"
+    }
+  },
+  {
+    "modalTitle" : "\"This speed is basically nothing for our old gal…\"",
+    "mText" : "A train engineer in his previous life, Yermak is one of the few surviving Metro personnel from before the war. When it comes to The Aurora, Yermak knows absolutely everything. From the complex mechanisms of the steam engine right down to the smallest bolt. He will work tirelessly to keep the 'old gal' running and make sure you get to your destination. You can be sure of that.",
+    "mImages" : "assets/images/card8.jpg",
+    "id" : 8,
+    "class" : "card hidden-card hideable",
+    "title" : "Yermak",
+    "description" : "The Aurora's permanent Helmsman.",
+    "images" : {
+      "src" : "assets/images/card8.jpg",
+      "alt" : "yermak"
+    }
+  },
+  {
+    "modalTitle" : "\"Please, let me do it, Colonel, Sir!\"",
+    "mText" : "One of the youngest aboard The Aurora and recently signed up as a scout in the Rangers, Duke is eager to go on any mission. No matter the danger, he is the first to volunteer. Always testing himself and pushing his limit, often prone to taking risks to ensure the mission is complete. For Duke, this journey is the perfect way to test his own abilities.",
+    "mImages" : "assets/images/card9.jpg",
+    "id" : 9,
+    "class" : "card hidden-card hideable",
+    "title" : "Duke",
+    "description" : "The youngest of the Spartan Rangers.",
+    "images" : {
+      "src" : "assets/images/card9.jpg",
+      "alt" : "duke"
+    }
+  },
+  {
+    "modalTitle" : "\"If you put your heart into it, the weapon never fails.\"",
+    "mText" : "Need technical expertise? Tokarev is the man you go to. Renowned among the Spartan Rangers, he is responsible for creating many of their weapons and modifications. A man hopelessly in love with his job, he spends most of his time in the workshop aboard The Aurora working on equipment and weapons. When he's not making new kit, he has hours of stories to tell... About weapons of course.",
+    "mImages" : "assets/images/card10.jpg",
+    "id" : 10,
+    "class" : "card hidden-card hideable",
+    "title" : "Tokarev",
+    "description" : "A weapons smith and maintenance specialist.",
+    "images" : {
+      "src" : "assets/images/card10.jpg",
+      "alt" : "tokarev"
+    }
+  },
+  {
+    "modalTitle" : "\"Who knows what adventures lie ahead, my friend?\"",
+    "mText" : "Alyosha joined the Spartan Rangers after spending a few years in the Polis Guard, looking for a new adventure. As a scout specialist, he is also the Order’s expert in survival in the ruins of Moscow. He's ecstatic about the whole journey on The Aurora, and thinks it's one giant adventure tailor-made for him.",
+    "mImages" : "assets/images/card11.jpg",
+    "id" : 11,
+    "class" : "card hidden-card hideable",
+    "title" : "Alyosha",
+    "description" : "Scout specialist.",
+    "images" : {
+      "src" : "assets/images/card11.jpg",
+      "alt" : "alyosha"
+    }
+  },
+  {
+    "modalTitle" : "\"Please take us with you…\"",
+    "mText" : "Held captive by Silantius Katya is a medic, trained by her mother who was a real Doctor. At first, she seems quiet and unsure of herself, but in fact is quite assertive and will go out of her way to help where she can. Katya is accompanied by her daughter, Nastya, a child who is captivated by the world around her and always eager to learn more. Used to the horrors of the world she lives in, she still finds it fascinating and wonders at its beauty, going as far as to find the flying mutants called Demons ‘majestic and beautiful’.",
+    "mImages" : "assets/images/card12.jpg",
+    "id" : 12,
+    "class" : "card hidden-card hideable",
+    "title" : "Katya",
+    "description" : "Every adventure needs a medic.",
+    "images" : {
+      "src" : "assets/images/card12.jpg",
+      "alt" : "katya"
+    }
+  }
+]

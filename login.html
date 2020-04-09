@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Metro Exodus - Login</title>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">
+  <meta name="description" content="Login page.">
+  <meta name="keywords" content="login,sing in,email,username,password,name">
+  <meta name="author" content="Vuk Lekic 351/17"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="assets/images/icon.ico" type="image/ico" sizes="128x128">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="assets/css/style.css" rel="stylesheet" type="text/css"/>
+  <link href="assets/css/carousel.css" rel="stylesheet" type="text/css"/>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.11.0/build/css/alertify.min.css"/>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.11.0/build/css/themes/semantic.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+  <nav class="navbar is-black">
+    <div class="navbar-brand">
+      <a id="logo-link" href="index.html" class="navbar-item is-size-6 is-uppercase">
+        <img src="assets/images/logo.png" alt="logo">
+      </a>
+      <span class="navbar-burger burger" data-target="navbarMenuHeroB">
+        <span></span>
+        <span></span>
+        <span></span>
+      </span>
+    </div>
+    <div id="navbarMenuHeroB" class="navbar-menu">
+      <div id="navigacijaCentar" class="navbar-start">
+
+      </div>
+      <div class="navbar-end">
+        <div id="media" class="in-nav-social">
+          <a href="https://twitter.com/metrovideogame" target="_blank" class="navbar-item">
+            <span class="icon">
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+            </span>
+          </a>
+          <a href="https://www.youtube.com/user/deepsilverhq" target="_blank" class="navbar-item">
+            <span class="icon">
+              <i class="fa fa-youtube-play" aria-hidden="true"></i>
+            </span>
+          </a>
+          <a href="https://www.instagram.com/metrovideogame/?hl=sr" target="_blank" class="navbar-item">
+            <span class="icon">
+              <i class="fa fa-instagram aria-hidden="true""></i>
+            </span>
+          </a>
+          <a href="https://www.facebook.com/MetroExodusgame/" target="_blank" class="navbar-item">
+            <span class="icon">
+              <i class="fa fa-facebook aria-hidden="true""></i>
+            </span>
+          </a>
+        </div>
+        <div id="ispisLogReg" class="navbar-item">
+          <span class="navbar-item is-uppercase no-padding-left">
+            <a href="register.html" class="button is-info navbar-button modal-toggle">
+              <span>Register</span>
+            </a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- sidebar -->
+  <aside class="section sidebar">
+    <div class="container">
+      <ul id="mini-menu" class="has-text-centered">
+        <li>
+          <a href="register.html" class="is-uppercase is-size-3">
+            Register
+          </a>
+        </li>
+
+      </ul>
+    </div>
+  </aside>
+  <section id="characters-exodus" class="hero is-custom">
+    <div class="hero-body">
+      <div class="container has-text-centered">
+  <div class="column is-4 is-offset-4">
+    <h3 class="title has-text-custom">Login</h3>
+    <p class="subtitle has-text-custom">Please login to proceed.</p>
+    <div class="box">
+          <div class="field">
+              <p class="control has-icons-left">
+                <input id="loginMail" class="input" type="text" placeholder="Email">
+                <span class="icon is-small is-left">
+                  <i id="mailEnvelope" class="fa fa-envelope"></i>
+                </span>
+              </p>
+            </div>
+        <div class="field">
+            <p class="control has-icons-left">
+              <input id="loginPwd" class="input" type="password" placeholder="Password">
+              <span class="icon is-small is-left">
+                <i id="pwdLock" class="fa fa-lock"></i>
+              </span>
+            </p>
+          </div>
+        <div class="field">
+          <label class="checkbox has-text-black">
+            <input type="checkbox">
+            Remember me
+          </label>
+        </div>
+        <button id="loginBtn" class="button is-block is-link  is-fullwidth" disabled="true">Login</button>
+    </div>
+    <p class="has-text-white">
+      <a class="button gBtn" href="register.html">Register</a>
+    </p>
+  </div>
+</div>
+</div>
+  </section>
+  <footer id="footerIn" class="footer">
+    <div class="hero-body">
+      <div class="hero-head">
+        <div class="content has-text-centered">
+          <h1 class="title">join the community</h1>
+        </div>
+      </div>
+      <div class="hero-foot">
+        <div class="content has-text-centered">
+          <div id="media" class="in-nav-social">
+            <a href="https://twitter.com/metrovideogame" target="_blank" class="navbar-item">
+              <span class="icon">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </span>
+            </a>
+            <a href="https://www.youtube.com/user/deepsilverhq" target="_blank" class="navbar-item">
+              <span class="icon">
+                <i class="fa fa-youtube-play" aria-hidden="true"></i>
+              </span>
+            </a>
+            <a href="https://www.instagram.com/metrovideogame/?hl=sr" target="_blank" class="navbar-item">
+              <span class="icon">
+                <i class="fa fa-instagram aria-hidden="true""></i>
+              </span>
+            </a>
+            <a href="https://www.facebook.com/MetroExodusgame/" target="_blank" class="navbar-item">
+              <span class="icon">
+                <i class="fa fa-facebook aria-hidden="true""></i>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-body">
+      <div class="hero-head">
+        <div class="content has-text-centered">
+          <div class="footerLogos">
+            <img src="/assets/images/xbox.png" alt="xbox">
+          </div>
+          <div class="footerLogos">
+            <img src="/assets/images/windows-logo.png" alt="winodws">
+          </div>
+          <div class="footerLogos">
+            <img src="/assets/images/ps4logo.png" alt="ps4">
+          </div>
+        </div>
+        <div class="content has-text-centered">
+          <div class="footerLogos">
+            <img src="/assets/images/esrb.jpg" alt="esrb">
+          </div>
+          <div class="footerLogos">
+            <img src="/assets/images/2035.png" alt="2035">
+          </div>
+          <div class="footerLogos">
+            <img src="/assets/images/path-engine.png" alt="path-engine">
+          </div>
+          <div class="footerLogos">
+            <img src="/assets/images/nvidia-logo.png" alt="nvidia">
+          </div>
+          <div class="footerLogos">
+            <img src="/assets/images/corsair-logo.png" alt="corsair">
+          </div>
+        </div>
+      </div>
+      <div class="hero-foot">
+        <div class="content has-text-centered">
+          <ul class="footer-nav">
+            <li class="footer-nav__item">
+              <a href="author.html" target="_blank" class="footer-nav__link">Author</a>
+            </li>
+            <li class="footer-nav__item">
+              <a href="https://www.deepsilver.com/us/privacy-policy/?ref=www.metrothegame.com/en-us/" target="_blank" class="footer-nav__link">Dokumentacija</a>
+            </li>
+            <li class="footer-nav__item">
+              <p>&copy Vuk Lekic 351/17</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="alertify-notifier ajs-bottom ajs-right"></div>
+  <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.11.0/build/alertify.min.js"></script>
+  <script src="assets/js/login.js" type="text/javascript"></script>
+  <script src="assets/js/jquery.js" type="text/javascript"></script>
+</body>
+</html>

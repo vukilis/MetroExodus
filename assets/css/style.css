@@ -1,0 +1,803 @@
+* {
+	font-family: 'Cinzel-Regular';
+	color: #fff;
+}
+
+.is-custom{
+	background-color: #242424;
+	/*background-image: url('/assets/images/canvas.jpg');
+	background-repeat: no-repeat;
+  background-size: cover;*/
+}
+.navbar{
+	height: 90px;
+}
+.navbar-brand .navbar-item img{
+	max-height: 3.06rem;
+	margin-left: 17px;
+}
+
+/* 2  */
+.navbar-start{
+	text-align: center;
+	margin: auto;
+}
+
+.navbar-start{
+	font-weight: bold;
+}
+
+#navigacija {
+	display: inherit;
+	padding-left: 55px;
+}
+
+#navigacija li a{
+	color: white;
+}
+
+#navigacija li a:hover{
+	background-color: transparent;
+}
+
+#home:hover, #about:hover, #game:hover{
+	color: #edc60f;
+}
+
+#navigacija li.aktivan a{
+	color: #edc60f;
+}
+
+/* 3 */
+.navbar-end{
+	margin-left: 0;
+}
+
+.navbar .is-info{
+	color: white;
+	background-color: transparent;
+	border: 1px solid #edc60f;
+	border-radius: 10px;
+	font-weight: bold;
+}
+
+.navbar .is-info:hover{
+	background-color: #edc60f;
+}
+.navbar .is-info:hover:active{
+		background-color: orange;
+}
+
+.in-nav-social{
+	margin-top: 25px;
+}
+
+.in-nav-social a{
+	display: inline-block;
+	height: 38px;
+}
+.in-nav-social a:hover{
+	background-color: transparent;
+}
+.in-nav-social a i:hover{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+
+.fa-twitter{
+	color: #38A1F3;
+}
+.fa-youtube-play{
+	color: #ED3833;
+}
+.fa-facebook{
+	color: #4267b2;
+}
+.fa-instagram{
+	color: #f1cbf2;
+}
+
+/* 4. sidebar */
+.sidebar-active {
+    right: 0!important;
+}
+
+.sidebar {
+    right: -100%;
+    top: 0;
+    z-index: 5 !important;
+    width: 100%;
+    height: 100vh;
+    background-color: grey;
+    align-items: center;
+    transition: right .3s ease;
+    display: flex;
+    position: fixed;
+}
+
+.section {
+    padding: 3rem 1.5rem;
+}
+
+.navbar-burger{
+	margin-top: 23px;
+	margin-right: 40px;
+	height: 2.5rem;
+	width: 2.6rem!important;
+}
+
+.navbar-burger span{
+	width: 41px;
+ margin-top: 3px;
+ height: 5px;
+ position: relative;
+ left: calc(50% - 20.5px);
+}
+
+.navbar-burger span:nth-child(1){
+	top: calc(50% - 18px);
+}
+
+.navbar-burger span:nth-child(2){
+	top: calc(50% - 13px);
+}
+
+.navbar-burger span:nth-child(3){
+	top: calc(50% + -8px);
+}
+
+.navbar-burger.is-active span:nth-child(1){
+	-webkit-transform: translateY(5px) rotate(45deg);
+  transform: translateY(14px) rotate(45deg);
+}
+
+.navbar-burger.is-active span:nth-child(3){
+	transform: translateY(-12px) rotate(-45deg);
+}
+
+.navbar-burger:hover{
+	color: #edc60f!important;
+}
+
+/* promo*/
+
+#promo-exodus{
+  padding: 70px 0;
+}
+
+#promo-exodus .title, #about-exodus .title, footer .title{
+	text-align: center;
+  line-height: 1.3;
+  font-family: 'Cinzel-Regular',serif;
+  font-size: 1.25em;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  font-weight: 400;
+  font-size: 30px;
+	color: #edc60f;
+}
+
+
+#promo-exodus p {
+	font-family: 'ontserrat-MetroLight,sans-serif';
+  line-height: 1.3;
+  font-size: 21px;
+	max-width: 730px;
+	margin: auto;
+	text-align: center;
+}
+/* game */
+
+#game-exodus .columns{
+  background-image: url('/assets/images/characters.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	background-color: black;
+	margin-top: 0rem;
+	margin-bottom: 0rem;
+	min-height: 50vh;
+}
+
+#game-exodus .columns:last-child{
+	background-image: url('/assets/images/weapons.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#game-exodus h1{
+	color: white;
+	margin: 0 0 25px;
+  font-family: Cinzel-Regular,serif;
+	font-size: 43px;
+  line-height: 1.3;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  font-weight: 400;
+}
+
+hr{
+	width: 600px;
+	background: transparent url('../images/line.png') repeat-x left center;
+	left: 50%;
+	bottom: -35rem;
+	height: 2px;
+	margin: auto;
+}
+
+
+#game-exodus p{
+	color: white;
+  margin: 35px auto 30px;
+  font-family: 'Montserrat-MetroLight',sans-serif;
+	font-size: 22px;
+  line-height: 1.3;
+  letter-spacing: 1.3px;
+	text-align: center;
+	width: 500px;
+	font-weight: 400;
+}
+
+#game-exodus .column .is-8{
+	padding: 120px 0;
+}
+
+
+.gBtn{
+	color: white;
+  background-color: #edc60f;
+  border: 1px solid #edc60f;
+	border-radius: 10px;
+  font-weight: bold;
+	cursor: pointer;
+}
+.gBtn:hover{
+	color: white;
+  background-color: transparent;
+	border: 1px solid #edc60f;
+}
+
+@-moz-document url-prefix() {
+.dimming{
+	content: '';
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.6);
+ }
+}
+.dimming{
+	content: '';
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.6);
+}
+#game-exodus .content{
+	z-index: 1;
+}
+
+.has-text-centered{
+	margin: auto;
+}
+
+/* about */
+#about-exodus{
+	min-height: 76vh;
+}
+#about-exodus p{
+	text-align: justify;
+	font-family: 'ontserrat-MetroLight,sans-serif';
+	line-height: 1.3;
+  font-size: 21px;
+  max-width: 730px;
+  margin: auto;
+	margin-bottom: 2rem
+}
+
+#about-exodus .content{
+	margin-top: 5rem;
+}
+
+#about-exodus .title{
+	padding-top: 5rem
+}
+
+#about-exodus strong{
+	color: #fff;
+}
+
+#recommended, #mininmum{
+ width: 45%;
+}
+
+
+/* footer */
+
+.footer{
+	background-color: black;
+	border-top: 2px solid #edc60f;
+}
+
+.hero.is-black {
+	background-color: black;
+}
+
+.footer .hero-head{
+	margin-bottom: 30px;
+}
+
+.footerLogos{
+ display: inline-block;
+ margin: 0 15px;
+ margin-bottom: 15px;
+}
+
+.footerLogos img{
+	max-height: 60px;
+}
+
+.footer{
+	padding: 3rem 1.5rem 2rem;
+}
+
+footer .fa{
+	font-size: 40px;
+}
+
+footer .icon{
+	height: 3.5rem;
+	width: 1.5rem;
+}
+
+footer .in-nav-social a{
+	height: 65px;
+	margin-right: 50px;
+}
+
+footer .in-nav-social a:first-child{
+	margin-left: 30px;
+}
+
+footer .in-nav-social a:nth-child(3){
+		margin-right: 35px;
+}
+
+footer .in-nav-social a:last-child{
+	margin-right: 0;
+}
+
+footer .in-nav-social a i:hover{
+	font-weight: bold;
+	font-size: 45px;
+}
+
+.control{
+	padding-top: 3rem;
+}
+
+.control.has-icons-left .icon, .control.has-icons-right .icon{
+	top: 3rem;
+}
+
+.fa-envelope{
+	color: grey;
+}
+.icon-danger{
+	color: red!important;
+}
+
+.icon-success{
+	color: green!important;
+}
+.progress.is-link::-moz-progress-bar{
+    background-color: #edc60f;
+}
+#subscribeBtn{
+	border: 1px solid #edc60f;
+  background-color: transparent;
+}
+#subscribeBtn:hover{
+	background-color: #edc60f;
+}
+
+#subscribeBtn:active, #subscribeBtn .is-focused:not(:active) {
+	background-color: orange;
+}
+
+.footer-nav {
+    margin: 0 0 15px;
+}
+
+.footer-nav__item:before {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 1px;
+    height: 15px;
+    background: #fff;
+}
+
+.footer-nav__item:last-child::before {
+    display: none;
+}
+
+.footer-nav__link {
+    display: inline-block;
+    text-decoration: underline;
+    color: #fff;
+    font-size: 20px;
+}
+
+.footer-nav__link:hover{
+	text-decoration: none;
+}
+
+.footer-nav__item {
+    display: inline-block;
+    padding: 0 10px;
+    position: relative;
+}
+
+.footer-nav__item a {
+    color: #edc60f;
+}
+
+.menu-list li{
+	display: inline-block;
+}
+
+footer .menu-list li a:hover{
+	background-color: transparent;
+	color: #edc60f;
+}
+
+footer .menu-list li a{
+	color: #ffff;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+footer .navbar-item, .navbar-link{
+	padding: 0;
+}
+
+/* alertify-notifier */
+
+.alertify-notifier .ajs-message{
+	color: #edc60f!important;
+	background: url('/assets/images/message2.jpg')!important;
+	border: 2px solid #edc60f!important;
+	background-position-x: 30%!important;
+	background-position-y: 57%!important;
+	background-repeat: no-repeat!important;
+	text-align: center!important;
+	font-weight: bold!important;
+	font-size: 18px!important;
+	}
+
+.ajs-customSuccess{
+	color: #edc60f!important;
+	background: url('/assets/images/message2.jpg')!important;
+	border: 2px solid #edc60f!important;
+	background-position-x: 30%!important;
+	background-position-y: 57%!important;
+	background-repeat: no-repeat!important;
+	text-align: center!important;
+	font-weight: bold!important;
+	font-size: 18px!important;
+}
+
+.ajs-customDanger{
+	color: red!important;
+	background: url('/assets/images/message2.jpg')!important;
+	border: 2px solid #edc60f!important;
+	background-position-x: 30%!important;
+	background-position-y: 57%!important;
+	background-repeat: no-repeat!important;
+	text-align: center!important;
+	font-weight: bold!important;
+	font-size: 18px!important;
+}
+
+	/* characters.html */
+
+	#characters-exodus{
+		min-height: 76vh;
+		padding-top: 50px
+	}
+
+  .card{
+		background-color: black;
+		height: 60vh;
+	}
+
+	.card-content{
+		padding: 3.5rem;
+	}
+
+	.card-content h1{
+		color: #edc60f;
+		text-transform: uppercase;
+		font-size: 30px;
+		letter-spacing: 7px;
+		line-height: 70px;
+	}
+
+	.card-content p{
+		font-size: 19px;
+	}
+
+	.crdBtn{
+		padding-bottom: 30px;
+	}
+
+  #characters-exodus .columns:last-child{
+		margin-bottom: 0rem;
+	}
+
+.gamePart{
+	display: inline-block;
+	font-size: 15px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin-right: 20px;
+	position: relative;
+}
+.gamePart:nth-child(1):after{
+	position: absolute;
+  content: '';
+  width: 20px;
+  height: 20px;
+  right: -64.3%;
+  top: 50.5%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  background-image: url("/assets/images/gamePart.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.gamePart.is-pulled-right::after {
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    right: -39.3%;
+    top: 50.5%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    background-image: url("/assets/images/gamePart.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+.fix.gamePart.is-pulled-right::after{
+	right: -29.3%;
+}
+
+.gamePart_link span{
+	color: #edc60f;
+}
+
+.control{
+	padding-top: 0px;
+}
+
+.input.is-warning, .textarea.is-warning{
+	border-color: #edc60f;
+}
+
+.is-warning{
+	color: trasnparent!important;
+}
+
+.button.is-warning{
+	font-weight: bold;
+}
+.control.has-icons-left .icon.is-left{
+	left: 5px;
+	top: 0px;
+}
+
+.control.has-icons-left .input, .control.has-icons-left .select select{
+	padding-left: 3.25em;
+}
+/*
+.select option{
+		background-color: #edc60f;
+		cursor: pointer;
+}
+*/
+
+.dropdown {
+  width: 210px;
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 2px rgb(204, 204, 204);
+  transition: all .5s ease;
+  position: relative;
+  font-size: 16px;
+  color: #474747;
+  height: 100%;
+	text-align: center;
+	cursor: pointer;
+	padding-top: 4px;
+	border: 1px solid #edc60f;
+}
+.dropdown span{
+	color: black
+}
+.dropdown .select {
+    cursor: pointer;
+    display: block;
+    padding: 10px
+}
+.dropdown .select > i {
+    font-size: 13px;
+    color: #888;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    float: right;
+    line-height: 20px
+}
+.dropdown:hover {
+    box-shadow: 0 0 4px rgb(204, 204, 204)
+}
+.dropdown:active {
+    background-color: #f8f8f8
+}
+.dropdown.active:hover,
+.dropdown.active {
+    box-shadow: 0 0 4px rgb(204, 204, 204);
+    border-radius: 5px 5px 0 0;
+    background-color: #f8f8f8
+}
+.dropdown.active .select > i {
+    transform: rotate(-90deg)
+}
+.dropdown .dropdown-menu {
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    left: 0;
+    margin-top: 1px;
+    box-shadow: 0 1px 2px rgb(204, 204, 204);
+    border-radius: 0 1px 5px 5px;
+    overflow: hidden;
+    display: none;
+    max-height: 144px;
+    overflow-y: auto;
+    z-index: 9;
+}
+.dropdown .dropdown-menu li {
+    padding: 10px;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+		color: black;
+}
+.dropdown .dropdown-menu {
+    padding: 0;
+    list-style: none
+}
+.dropdown .dropdown-menu li:hover {
+		background-color: #edc60f;
+}
+.dropdown .dropdown-menu li:active {
+    background-color: #e2e2e2
+}
+
+/*alertify*/
+.alertify .ajs-header, .ajs-dialog, .ajs-footer{
+    background: linear-gradient(to left, black 0%, #edc60f 100%)!important;
+}
+.alertify .ajs-header:after{
+	width: 100%;
+  content: "";
+  background: transparent url(../images/line.png) repeat-x left center;
+  position: absolute;
+  left: 50%;
+  bottom: 11rem;
+  height: 2px;
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+.alertify .ajs-header {
+		color: #edc60f!important;
+		font-weight: bold;
+		font-size: 24px;
+		letter-spacing: 3px;
+		font-family: 'Cinzel-Regular';
+		text-align: center;
+}
+.alertify .ajs-body p{
+	color: black;
+	font-size: 18px;
+	font-weight: 800;
+}
+.alertify .ajs-close{
+	color: #edc60f;
+}
+.alertify button:focus{
+	outline: 1px dotted #edc60f!important;
+}
+.alertify .ajs-footer button{
+	text-transform: uppercase;
+	cursor: pointer;
+	background: #edc60f;
+}
+.alertify .ajs-footer button:focus, .alertify .ajs-footer button:hover {
+	outline: 1px dotted #edc60f;
+	font-weight: bold;
+	background: linear-gradient(to left, black 0%, #edc60f 100%);
+}
+
+/* modal */
+#openForModal hr{
+	margin: 20px 0;
+}
+#openForModal .modal-card-body{
+	background-color: #242424;
+	text-align: justify;
+}
+#openForModal .modal-card-body h1{
+	color: #edc60f;
+	text-align: center;
+}
+#openForModal .modal-card-body h2{
+	color: #fff;
+}
+#openForModal .delete::after, .delete::before, .modal-close::after, .modal-close::before{
+	background-color: #242424;
+}
+#openForModal .delete, .modal-close{
+	background-color: #edc60f;
+}
+#openForModal .delete:hover, .modal-close:hover{
+	background-color: #d8b408;
+}
+
+/* login - register */
+.fa-lock{
+	color: grey;
+}
+.has-text-custom{
+	color: #edc60f;
+}
+.button.is-link[disabled]{
+	background-color: #f7e076;
+}
+.button.is-link, .button.is-link:hover, .button.is-link:active	{
+	background-color: #edc60f;
+}
+#about-exodus img{
+	width: 70%;
+	margin-left: 15%;
+	margin-top: 30px;
+
+}
+.text-autor{
+	font-size: 24px!important;
+	margin-top: 30px!important;
+}
+.title-about{
+	padding-top: 0rem!important;
+}
+@media only screen and (max-width:1087px){
+	.navbar-item{
+		margin-top: 12.9px;
+	}
+}

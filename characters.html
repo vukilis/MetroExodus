@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Metro Exodus - Characters</title>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">
+  <meta name="description" content="Characters of Metro Exodus.">
+  <meta name="keywords" content="characters,metro,exodus,Yermak,Artyom,Anna,Sam,Miller,Damir">
+  <meta name="author" content="Vuk Lekic 351/17"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="assets/images/icon.ico" type="image/ico" sizes="128x128">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="assets/css/style.css" rel="stylesheet" type="text/css"/>
+  <link href="assets/css/carousel.css" rel="stylesheet" type="text/css"/>
+  <link href="assets/css/bulma-switch.min.css" rel="stylesheet" type="text/css"/>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.11.0/build/css/alertify.min.css"/>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.11.0/build/css/themes/semantic.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+  <nav class="navbar is-black">
+    <div class="navbar-brand">
+      <a id="logo-link" href="index.html" class="navbar-item is-size-6 is-uppercase">
+        <img src="assets/images/logo.png" alt="logo">
+      </a>
+      <span class="navbar-burger burger" data-target="navbarMenuHeroB">
+        <span></span>
+        <span></span>
+        <span></span>
+      </span>
+    </div>
+    <div id="navbarMenuHeroB" class="navbar-menu">
+      <div id="navigacijaCentar" class="navbar-start">
+
+      </div>
+      <div class="navbar-end">
+        <div id="media" class="in-nav-social">
+          <a href="https://twitter.com/metrovideogame" target="_blank" class="navbar-item">
+            <span class="icon">
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+            </span>
+          </a>
+          <a href="https://www.youtube.com/user/deepsilverhq" target="_blank" class="navbar-item">
+            <span class="icon">
+              <i class="fa fa-youtube-play" aria-hidden="true"></i>
+            </span>
+          </a>
+          <a href="https://www.instagram.com/metrovideogame/?hl=sr" target="_blank" class="navbar-item">
+            <span class="icon">
+              <i class="fa fa-instagram aria-hidden="true""></i>
+            </span>
+          </a>
+          <a href="https://www.facebook.com/MetroExodusgame/" target="_blank" class="navbar-item">
+            <span class="icon">
+              <i class="fa fa-facebook aria-hidden="true""></i>
+            </span>
+          </a>
+        </div>
+        <div id="ispisLogReg" class="navbar-item">
+          <span class="navbar-item is-uppercase">
+            <a href="login.html" data-target="#login" class="button is-info navbar-button modal-toggle">
+              <span>Login</span>
+            </a>
+          </span>
+          <span class="navbar-item is-uppercase no-padding-left">
+            <a href="register.html" data-target="#registration" class="button is-info navbar-button modal-toggle">
+              <span>Register</span>
+            </a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- sidebar -->
+  <aside class="section sidebar">
+    <div class="container">
+      <ul id="mini-menu" class="has-text-centered">
+
+        <li>
+          <a id="home" href="index.html" class="is-uppercase is-size-3">Home</a>
+        </li>
+        <li>
+          <a id="game" href="#game" class="is-uppercase is-size-3">game</a>
+        </li>
+        <li>
+          <a id="about" href="#about" class="is-uppercase is-size-3">about</a>
+        </li>
+        <li>
+          <a id="preorder" href="#preorder" class="is-uppercase is-size-3">pre-order</a>
+        </li>
+        <li>
+          <a href="login.html" data-target="#login" class="is-uppercase is-size-3">
+            Login
+          </a>
+        </li>
+        <li>
+          <a href="register.html" data-target="#registration" class="is-uppercase is-size-3">
+            Register
+          </a>
+        </li>
+
+      </ul>
+    </div>
+  </aside>
+  <section id="characters-exodus" class="hero is-custom">
+    <div class="container-fluid">
+      <div class="columns is-mobile is-centered">
+        <div class="column is-4">
+          <div class="gamePart">
+            <p class="bd-notification is-primary">
+              game
+            </p>
+          </div>
+          <div class="gamePart">
+            <a href="characters.html" class="gamePart_link"><span>Characters</span></a>
+          </div>
+        </div>
+        <div class="column is-4">
+          <div class="gamePart is-pulled-right">
+            <a href="weapons.html" class="gamePart_link"><span>Weapons</span></a>
+          </div>
+        </div>
+      </div>
+      <div class="columns is-mobile is-centered">
+        <div class="column is-3">
+          <div class="filt">
+            <div class="field has-addons">
+              <div class="control">
+                <input id="searchField" class="input is-warning" type="text" placeholder="Find a character">
+              </div>
+              <div class="control">
+                <a class="button is-warning" id="searchBtn">
+                  Search
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column is-3">
+          <div class="filt">
+            <div class="field has-addons">
+              <div class="field">
+                <input id="switchRoundedWarning" onclick="backgroundChange()" type="checkbox" name="switchRoundedWarning" class="switch is-rounded is-warning is-rtl">
+                <label for="switchRoundedWarning">Schose</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column is-3">
+          <div class="filt is-pulled-right">
+            <div class="field">
+              <div class="control has-icons-left">
+                <div class="select is-warning">
+                  <div class="dropdown">
+                    <span>Select by sort</span>
+                    <input type="hidden" name="gender">
+                    <ul class="dropdown-menu">
+                      <li class="sort-elementAZ" id="sort1">Name, A to Z</li>
+                      <li class="sort-elementZA" id="sort2">Name, Z to A</li>
+                    </ul>
+                  </div>
+                  <div class="icon is-small is-left">
+                    <img src="https://img.icons8.com/ios/50/000000/generic-sorting-2.png">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="columns is-mobile is-centered">
+        <div class="column is-three-quarters">
+          <div class="columns is-multiline" id="charactersContainer">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer id="footerIn" class="footer">
+    <div class="hero-body">
+      <div class="hero-head">
+        <div class="content has-text-centered">
+          <h1 class="title">join the community</h1>
+        </div>
+      </div>
+      <div class="hero-foot">
+        <div class="content has-text-centered">
+          <div id="media" class="in-nav-social">
+            <a href="https://twitter.com/metrovideogame" target="_blank" class="navbar-item">
+              <span class="icon">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </span>
+            </a>
+            <a href="https://www.youtube.com/user/deepsilverhq" target="_blank" class="navbar-item">
+              <span class="icon">
+                <i class="fa fa-youtube-play" aria-hidden="true"></i>
+              </span>
+            </a>
+            <a href="https://www.instagram.com/metrovideogame/?hl=sr" target="_blank" class="navbar-item">
+              <span class="icon">
+                <i class="fa fa-instagram aria-hidden="true""></i>
+              </span>
+            </a>
+            <a href="https://www.facebook.com/MetroExodusgame/" target="_blank" class="navbar-item">
+              <span class="icon">
+                <i class="fa fa-facebook aria-hidden="true""></i>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-body">
+      <div class="hero-head">
+        <div class="content has-text-centered">
+          <div class="footerLogos">
+            <img src="/assets/images/xbox.png" alt="xbox">
+          </div>
+          <div class="footerLogos">
+            <img src="/assets/images/windows-logo.png" alt="winodws">
+          </div>
+          <div class="footerLogos">
+            <img src="/assets/images/ps4logo.png" alt="ps4">
+          </div>
+        </div>
+        <div class="content has-text-centered">
+          <div class="footerLogos">
+            <img src="/assets/images/esrb.jpg" alt="esrb">
+          </div>
+          <div class="footerLogos">
+            <img src="/assets/images/2035.png" alt="2035">
+          </div>
+          <div class="footerLogos">
+            <img src="/assets/images/path-engine.png" alt="path-engine">
+          </div>
+          <div class="footerLogos">
+            <img src="/assets/images/nvidia-logo.png" alt="nvidia">
+          </div>
+          <div class="footerLogos">
+            <img src="/assets/images/corsair-logo.png" alt="corsair">
+          </div>
+        </div>
+      </div>
+      <div class="hero-foot">
+        <div class="content has-text-centered">
+          <ul class="footer-nav">
+            <li class="footer-nav__item">
+              <a href="author.html" target="_blank" class="footer-nav__link">Author</a>
+            </li>
+            <li class="footer-nav__item">
+              <a href="dokumentacija.pdf" target="_blank" class="footer-nav__link">Dokumentacija</a>
+            </li>
+            <li class="footer-nav__item">
+              <p>&copy Vuk Lekic 351/17</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- TO TOP -->
+  <button id="myBtnScroll" title="TO TOP"></button>
+  <!-- MODAL -->
+  <div class="modal gameModal opacity" id="openForModal"></div>
+  <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.11.0/build/alertify.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="assets/js/jquery.js" type="text/javascript"></script>
+  <script src="assets/js/characters.js" type="text/javascript"></script>
+  <script src="assets/js/charactersModal.js" type="text/javascript"></script>
+</body>
+</html>
